@@ -39,3 +39,18 @@ if ("d") {
 }
 
 console.log(reply);
+
+// Conditionals: Ternary Operator
+
+// syntax
+// condition ? ifTrue : ifFalse;
+
+let soup = "Chicken Soup";
+let isCustomerBanned = false;
+let soupAccess = isCustomerBanned
+  ? "Sorry, no soup for you!"
+  : soup
+  ? `Yes, we have ${soup} today`
+  : "Sorry, no soup today.";
+
+console.log(soupAccess);
