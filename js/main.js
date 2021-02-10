@@ -27,3 +27,15 @@ const myNameNoBlank = myName.replace(" ", "");
 const randNum = Math.random() * (myNameNoBlank.length - 1);
 
 console.log(myNameNoBlank.charAt(randNum));
+
+// Conditionals: If statements.
+
+let reply;
+
+if ("d") {
+  reply = "TRUE!";
+} else {
+  reply = "FALSE?!";
+}
+
+console.log(reply);
